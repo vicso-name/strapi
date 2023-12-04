@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "arabic_phrases",
+  "info": {
+    "singularName": "arabic-phrase",
+    "pluralName": "arabic-phrases",
+    "displayName": "Arabic Phrases"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "arabic_phrase": {
+      "type": "string"
+    },
+    "english_phrase": {
+      "type": "string"
+    },
+    "phrase_pronunciation": {
+      "type": "string"
+    },
+    "phrase_visualisation": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "phrase_vocalisation": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "phrase_category": {
+      "type": "string"
+    }
+  }
+}
